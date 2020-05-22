@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete form using method override</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <p></p>
+    <form action="" method="POST">
+        <input type="hidden" name="_method" value="delete" />
+        <label style="font-size: larger;">Select book you want to remove from your list:</label>
+        <p></p>
+        <select style=" height:50px; font-size: 20px;" id="book-select" name="book_id"></select>
+        <input type="submit" value="Remove book from your list">
+    </form>
+</body>
+</html>
